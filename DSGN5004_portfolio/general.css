@@ -1,0 +1,219 @@
+html,body {
+    background-color:rgb(201, 228, 204);
+}
+
+#header{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+#text1rapper{
+    padding: 60px;
+    background: white;
+}
+#text1{
+    font-size: 20px;
+}
+#dr{
+    position: relative;
+    margin-top: calc(50vh - 250px);
+    margin-left: calc(50vw - 250px);
+    width: 520px;
+    height: 520px;
+    background-color: rgba(160, 193, 189, 0.499);
+    border-radius: 3%;
+}
+
+#inner{
+    position: relative;
+    top: 15px;
+    left: 15px;
+       width: 490px;
+       height: 490px;
+       background-color: rgba(0, 0, 0, 0.06);
+       border-radius: 5%;
+}
+.door1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+       width: 250px;
+       height:500px;
+     overflow: hidden;
+     transform-origin: left;
+     position: absolute;
+     background-color: rgb(140, 180, 180);
+     z-index:1;
+     transform-style: preserve-3d;
+     transform: perspective(1000px);
+     transition: .5s;
+     border-radius: 3%;
+   }
+.di{
+    position:relative;
+    top: 5px;
+    left: 5px;
+    width: 240px;
+    height: 490px;
+    background-color: rgb(220, 248, 252);
+    border-radius: 3%;
+}
+.deco1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 90px;
+    height: 180px;
+    background-color: rgb(206, 241, 237);
+    border-radius: 5%;
+}
+.deco2{
+    position: relative;
+    top: -160px;
+    left: 130px;
+    width: 90px;
+    height: 180px;
+    background-color: rgb(206, 241, 237);
+    border-radius: 5%;
+}
+.deco3{
+    position: relative;
+    top: -150px;
+    left: 20px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(206, 241, 237);
+    border-radius: 10%;
+}
+
+.deco4{
+    position: relative;
+    top: -145px;
+    left: 20px;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(206, 241, 237);
+    border-radius: 10%;
+}
+.deco5{
+    position: relative;
+    top: -140px;
+    left: 20px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(206, 241, 237);
+    border-radius: 10%;
+}
+.hand1{
+    position: relative;
+    top: -180px;
+    right: -220px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(9, 55, 50);
+    border-radius: 50%;
+}
+
+.hand2{
+    position: relative;
+    top: -180px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(9, 55, 50);
+    border-radius: 50%;
+}
+.deco6{
+    position: relative;
+    top: -150px;
+    left: 20px;
+    width: 200px;
+    height: 195px;
+    background-color: rgb(206, 241, 237);
+    border-radius: 5%;
+}
+   .door2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    height:500px;
+  overflow: hidden;
+  transform-origin: right;
+  position: absolute;
+  background-color: rgb(140, 180, 180);
+  z-index:1;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transition: .5s;
+  border-radius: 3%;
+}
+#dr:hover>.door1 {
+    transform: rotateY(-160deg); 
+}
+#dr:hover>.door2 {
+    transform: rotateY(160deg); 
+}
+
+#tb1 {
+    border-collapse: collapse;
+  }
+  #tb1 td, #tb1 th {
+    border: 5px solid rgb(58, 101, 18);
+    border-style: dotted;
+    min-width: 150px;
+    height: 161px;
+    text-align: center;
+  }
+  #tb1 tr:nth-child(even) {
+    background-color: rgb(190, 221, 183);
+  }
+  #tb1 tr:nth-child(odd) {
+    background-color: rgb(172, 187, 153);
+  }
+
+  #tb2 {
+    border-collapse: collapse;
+    position: relative;
+    left: 165px;
+    top: -488px;
+  }
+  #tb2 td, #tb2 th {
+    border: 5px solid rgb(58, 101, 18);
+    border-style: dotted;
+    min-width: 150px;
+    height: 161px;
+    text-align: center;
+  }
+  #tb2 tr:nth-child(even) {
+    background-color: rgb(190, 221, 183);
+  }
+  #tb2 tr:nth-child(odd) {
+    background-color: rgb(172, 187, 153);
+  }
+  #tb3 {
+    border-collapse: collapse;
+    position: relative;
+    left: 330px;
+    top: -976px;
+  }
+  #tb3 td, #tb2 th {
+    border: 5px solid rgb(58, 101, 18);
+    border-style: dotted;
+    min-width: 150px;
+    height: 161px;
+    text-align: center;
+  }
+  #tb3 tr:nth-child(even) {
+    background-color: rgb(190, 221, 183);
+  }
+  #tb3 tr:nth-child(odd) {
+    background-color: rgb(172, 187, 153);
+  }
+  
+  #text2{
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+  }
